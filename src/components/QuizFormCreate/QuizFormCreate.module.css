@@ -1,0 +1,15 @@
+.Form {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: left;
+}
+.form_fields {
+	display: flex;
+	flex-direction: column;
+}
+.btn {
+	padding: 12px 12px;
+	background-color: azure;
+	cursor: pointer;
+}

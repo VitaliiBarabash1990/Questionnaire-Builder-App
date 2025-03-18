@@ -1,0 +1,54 @@
+.HeaderSection {
+	background-color: #fff;
+	padding: 16px 10px;
+}
+
+.HeaderWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+	.HeaderWrapper {
+		max-width: 100%;
+	}
+}
+
+.Title {
+	color: white;
+	font-weight: bold;
+}
+
+.Button {
+	color: #fff;
+	background-color: #3870de;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 50px;
+	text-align: center;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	max-height: 56px;
+	padding: 16px calc(3vh + 3vw);
+	min-height: 41px;
+	text-transform: uppercase;
+	padding: 20px 38px;
+
+	background-color: rgba(23, 43, 145, 0.5);
+	background-image: linear-gradient(
+		273.87deg,
+		rgba(18, 124, 222, 0.6),
+		#172b91
+	);
+	background-size: 100%;
+	transition: background-color 0.3s ease-out, background-size 0.3s ease-out;
+}
+.Button:hover,
+.Button:focus {
+	background-color: #007bff;
+}
